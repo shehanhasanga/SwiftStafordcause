@@ -9,6 +9,7 @@ import SwiftUI
 
 struct ContentView: View {
     var emojies = ["🚙","🚁","🚀","🛶","🚘","⛵️","🛳","🚌","🛻","🛴","🛺","🚑","🚜","🚒","🛸"]
+    @ObservedObject var viewModel : EmojiMemoryGame
     @State var emojiCount = 5
     var remove : some View{
         return  Button {
@@ -41,8 +42,12 @@ struct ContentView: View {
         VStack{
             ScrollView{
                 LazyVGrid(columns:[GridItem(.adaptive(minimum: 70))]){
-                    ForEach(emojies[1..<emojiCount], id: \.self) { emoji in
-                        CardView(text: emoji).aspectRatio(2/3, contentMode: .fit)
+                    ForEach(viewModel.cards) { card in
+                        CardView(card: card)
+                            .aspectRatio(2/3, contentMode: .fit)
+                            .onTapGesture {
+                                viewModel.choose(card)
+                            }
                     }
 
                 }
@@ -71,31 +76,37 @@ struct ContentView: View {
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        let game = EmojiMemoryGame()
+        ContentView(viewModel: game)
             .preferredColorScheme(.dark)
     }
 }
 
 struct CardView: View {
-    @State var faceUp:Bool = true
-    var text:String
+//    @State var faceUp:Bool = true
+    let card : MemoryGame<String>.Card
+//    var text:String
     var body: some View {
         return
         ZStack{
             let baseShape = RoundedRectangle(cornerRadius: 25)
-            if(faceUp){
+            if(card.faceUp){
                 baseShape.fill(.white)
                 baseShape.stroke(lineWidth: 3)
-                Text(text)
+                Text(card.cardContent)
                     .padding(.vertical)
-            } else {
+            } else if(card.ismatched){
+                baseShape.opacity(0)
+            }
+            
+            else {
                 baseShape.fill()
             }
             
         }
-        .onTapGesture {
-            faceUp = !faceUp
-        }
+//        .onTapGesture {
+//            card.faceUp = !card.faceUp
+//        }
     }
     
 }

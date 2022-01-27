@@ -1,0 +1,584 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BE8B4D4727A24529001C19A3 /* StafordStartApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE8B4D4627A24529001C19A3 /* StafordStartApp.swift */; };
+		BE8B4D4927A24529001C19A3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE8B4D4827A24529001C19A3 /* ContentView.swift */; };
+		BE8B4D4B27A2452A001C19A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE8B4D4A27A2452A001C19A3 /* Assets.xcassets */; };
+		BE8B4D4E27A2452A001C19A3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE8B4D4D27A2452A001C19A3 /* Preview Assets.xcassets */; };
+		BE8B4D5827A2452A001C19A3 /* StafordStartTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE8B4D5727A2452A001C19A3 /* StafordStartTests.swift */; };
+		BE8B4D6227A2452B001C19A3 /* StafordStartUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE8B4D6127A2452B001C19A3 /* StafordStartUITests.swift */; };
+		BE8B4D6427A2452B001C19A3 /* StafordStartUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE8B4D6327A2452B001C19A3 /* StafordStartUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BE8B4D5427A2452A001C19A3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BE8B4D3B27A24529001C19A3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BE8B4D4227A24529001C19A3;
+			remoteInfo = StafordStart;
+		};
+		BE8B4D5E27A2452B001C19A3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BE8B4D3B27A24529001C19A3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BE8B4D4227A24529001C19A3;
+			remoteInfo = StafordStart;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BE8B4D4327A24529001C19A3 /* StafordStart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StafordStart.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE8B4D4627A24529001C19A3 /* StafordStartApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StafordStartApp.swift; sourceTree = "<group>"; };
+		BE8B4D4827A24529001C19A3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BE8B4D4A27A2452A001C19A3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BE8B4D4D27A2452A001C19A3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BE8B4D5327A2452A001C19A3 /* StafordStartTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StafordStartTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE8B4D5727A2452A001C19A3 /* StafordStartTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StafordStartTests.swift; sourceTree = "<group>"; };
+		BE8B4D5D27A2452B001C19A3 /* StafordStartUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StafordStartUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE8B4D6127A2452B001C19A3 /* StafordStartUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StafordStartUITests.swift; sourceTree = "<group>"; };
+		BE8B4D6327A2452B001C19A3 /* StafordStartUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StafordStartUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BE8B4D4027A24529001C19A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE8B4D5027A2452A001C19A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE8B4D5A27A2452B001C19A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BE8B4D3A27A24529001C19A3 = {
+			isa = PBXGroup;
+			children = (
+				BE8B4D4527A24529001C19A3 /* StafordStart */,
+				BE8B4D5627A2452A001C19A3 /* StafordStartTests */,
+				BE8B4D6027A2452B001C19A3 /* StafordStartUITests */,
+				BE8B4D4427A24529001C19A3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BE8B4D4427A24529001C19A3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BE8B4D4327A24529001C19A3 /* StafordStart.app */,
+				BE8B4D5327A2452A001C19A3 /* StafordStartTests.xctest */,
+				BE8B4D5D27A2452B001C19A3 /* StafordStartUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BE8B4D4527A24529001C19A3 /* StafordStart */ = {
+			isa = PBXGroup;
+			children = (
+				BE8B4D4627A24529001C19A3 /* StafordStartApp.swift */,
+				BE8B4D4827A24529001C19A3 /* ContentView.swift */,
+				BE8B4D4A27A2452A001C19A3 /* Assets.xcassets */,
+				BE8B4D4C27A2452A001C19A3 /* Preview Content */,
+			);
+			path = StafordStart;
+			sourceTree = "<group>";
+		};
+		BE8B4D4C27A2452A001C19A3 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				BE8B4D4D27A2452A001C19A3 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BE8B4D5627A2452A001C19A3 /* StafordStartTests */ = {
+			isa = PBXGroup;
+			children = (
+				BE8B4D5727A2452A001C19A3 /* StafordStartTests.swift */,
+			);
+			path = StafordStartTests;
+			sourceTree = "<group>";
+		};
+		BE8B4D6027A2452B001C19A3 /* StafordStartUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BE8B4D6127A2452B001C19A3 /* StafordStartUITests.swift */,
+				BE8B4D6327A2452B001C19A3 /* StafordStartUITestsLaunchTests.swift */,
+			);
+			path = StafordStartUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BE8B4D4227A24529001C19A3 /* StafordStart */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE8B4D6727A2452B001C19A3 /* Build configuration list for PBXNativeTarget "StafordStart" */;
+			buildPhases = (
+				BE8B4D3F27A24529001C19A3 /* Sources */,
+				BE8B4D4027A24529001C19A3 /* Frameworks */,
+				BE8B4D4127A24529001C19A3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StafordStart;
+			productName = StafordStart;
+			productReference = BE8B4D4327A24529001C19A3 /* StafordStart.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BE8B4D5227A2452A001C19A3 /* StafordStartTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE8B4D6A27A2452B001C19A3 /* Build configuration list for PBXNativeTarget "StafordStartTests" */;
+			buildPhases = (
+				BE8B4D4F27A2452A001C19A3 /* Sources */,
+				BE8B4D5027A2452A001C19A3 /* Frameworks */,
+				BE8B4D5127A2452A001C19A3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BE8B4D5527A2452A001C19A3 /* PBXTargetDependency */,
+			);
+			name = StafordStartTests;
+			productName = StafordStartTests;
+			productReference = BE8B4D5327A2452A001C19A3 /* StafordStartTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BE8B4D5C27A2452B001C19A3 /* StafordStartUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE8B4D6D27A2452B001C19A3 /* Build configuration list for PBXNativeTarget "StafordStartUITests" */;
+			buildPhases = (
+				BE8B4D5927A2452B001C19A3 /* Sources */,
+				BE8B4D5A27A2452B001C19A3 /* Frameworks */,
+				BE8B4D5B27A2452B001C19A3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BE8B4D5F27A2452B001C19A3 /* PBXTargetDependency */,
+			);
+			name = StafordStartUITests;
+			productName = StafordStartUITests;
+			productReference = BE8B4D5D27A2452B001C19A3 /* StafordStartUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BE8B4D3B27A24529001C19A3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					BE8B4D4227A24529001C19A3 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					BE8B4D5227A2452A001C19A3 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = BE8B4D4227A24529001C19A3;
+					};
+					BE8B4D5C27A2452B001C19A3 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = BE8B4D4227A24529001C19A3;
+					};
+				};
+			};
+			buildConfigurationList = BE8B4D3E27A24529001C19A3 /* Build configuration list for PBXProject "StafordStart" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BE8B4D3A27A24529001C19A3;
+			productRefGroup = BE8B4D4427A24529001C19A3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BE8B4D4227A24529001C19A3 /* StafordStart */,
+				BE8B4D5227A2452A001C19A3 /* StafordStartTests */,
+				BE8B4D5C27A2452B001C19A3 /* StafordStartUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BE8B4D4127A24529001C19A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE8B4D4E27A2452A001C19A3 /* Preview Assets.xcassets in Resources */,
+				BE8B4D4B27A2452A001C19A3 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE8B4D5127A2452A001C19A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE8B4D5B27A2452B001C19A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BE8B4D3F27A24529001C19A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE8B4D4927A24529001C19A3 /* ContentView.swift in Sources */,
+				BE8B4D4727A24529001C19A3 /* StafordStartApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE8B4D4F27A2452A001C19A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE8B4D5827A2452A001C19A3 /* StafordStartTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE8B4D5927A2452B001C19A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE8B4D6227A2452B001C19A3 /* StafordStartUITests.swift in Sources */,
+				BE8B4D6427A2452B001C19A3 /* StafordStartUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BE8B4D5527A2452A001C19A3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BE8B4D4227A24529001C19A3 /* StafordStart */;
+			targetProxy = BE8B4D5427A2452A001C19A3 /* PBXContainerItemProxy */;
+		};
+		BE8B4D5F27A2452B001C19A3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BE8B4D4227A24529001C19A3 /* StafordStart */;
+			targetProxy = BE8B4D5E27A2452B001C19A3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		BE8B4D6527A2452B001C19A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BE8B4D6627A2452B001C19A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BE8B4D6827A2452B001C19A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"StafordStart/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.shehan.StafordStart;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BE8B4D6927A2452B001C19A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"StafordStart/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.shehan.StafordStart;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BE8B4D6B27A2452B001C19A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.shehan.StafordStartTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StafordStart.app/StafordStart";
+			};
+			name = Debug;
+		};
+		BE8B4D6C27A2452B001C19A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.shehan.StafordStartTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StafordStart.app/StafordStart";
+			};
+			name = Release;
+		};
+		BE8B4D6E27A2452B001C19A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.shehan.StafordStartUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = StafordStart;
+			};
+			name = Debug;
+		};
+		BE8B4D6F27A2452B001C19A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.shehan.StafordStartUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = StafordStart;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BE8B4D3E27A24529001C19A3 /* Build configuration list for PBXProject "StafordStart" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE8B4D6527A2452B001C19A3 /* Debug */,
+				BE8B4D6627A2452B001C19A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE8B4D6727A2452B001C19A3 /* Build configuration list for PBXNativeTarget "StafordStart" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE8B4D6827A2452B001C19A3 /* Debug */,
+				BE8B4D6927A2452B001C19A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE8B4D6A27A2452B001C19A3 /* Build configuration list for PBXNativeTarget "StafordStartTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE8B4D6B27A2452B001C19A3 /* Debug */,
+				BE8B4D6C27A2452B001C19A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE8B4D6D27A2452B001C19A3 /* Build configuration list for PBXNativeTarget "StafordStartUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE8B4D6E27A2452B001C19A3 /* Debug */,
+				BE8B4D6F27A2452B001C19A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BE8B4D3B27A24529001C19A3 /* Project object */;
+}

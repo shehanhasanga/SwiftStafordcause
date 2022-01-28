@@ -12,7 +12,7 @@ struct StafordStartApp: App {
     let game = EmojiMemoryGame()
     var body: some Scene {
         WindowGroup {
-            ContentView( viewModel: game)
+            EmojiGameView( viewModel: game)
         }
     }
 }

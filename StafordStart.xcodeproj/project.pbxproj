@@ -18,6 +18,7 @@
 		BE8B4D7327A2A173001C19A3 /* EmojiMemoryGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE8B4D7227A2A173001C19A3 /* EmojiMemoryGame.swift */; };
 		BE8B4D7527A39A0C001C19A3 /* AspectVGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE8B4D7427A39A0C001C19A3 /* AspectVGrid.swift */; };
 		BE8B4D7727A3AEBC001C19A3 /* Pie.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE8B4D7627A3AEBC001C19A3 /* Pie.swift */; };
+		BE8B4D7B27A3DF65001C19A3 /* Cardify.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE8B4D7A27A3DF65001C19A3 /* Cardify.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +53,7 @@
 		BE8B4D7227A2A173001C19A3 /* EmojiMemoryGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiMemoryGame.swift; sourceTree = "<group>"; };
 		BE8B4D7427A39A0C001C19A3 /* AspectVGrid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AspectVGrid.swift; sourceTree = "<group>"; };
 		BE8B4D7627A3AEBC001C19A3 /* Pie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pie.swift; sourceTree = "<group>"; };
+		BE8B4D7A27A3DF65001C19A3 /* Cardify.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cardify.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +112,7 @@
 				BE8B4D7227A2A173001C19A3 /* EmojiMemoryGame.swift */,
 				BE8B4D7427A39A0C001C19A3 /* AspectVGrid.swift */,
 				BE8B4D7627A3AEBC001C19A3 /* Pie.swift */,
+				BE8B4D7A27A3DF65001C19A3 /* Cardify.swift */,
 			);
 			path = StafordStart;
 			sourceTree = "<group>";
@@ -270,6 +273,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BE8B4D7727A3AEBC001C19A3 /* Pie.swift in Sources */,
+				BE8B4D7B27A3DF65001C19A3 /* Cardify.swift in Sources */,
 				BE8B4D7127A29FFF001C19A3 /* MemoryGame.swift in Sources */,
 				BE8B4D4927A24529001C19A3 /* EmojiGameView.swift in Sources */,
 				BE8B4D4727A24529001C19A3 /* StafordStartApp.swift in Sources */,

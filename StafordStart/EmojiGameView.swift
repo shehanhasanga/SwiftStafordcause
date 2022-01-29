@@ -10,7 +10,18 @@ import SwiftUI
 struct EmojiGameView: View {
     var emojies = ["🚙","🚁","🚀","🛶","🚘","⛵️","🛳","🚌","🛻","🛴","🛺","🚑","🚜","🚒","🛸"]
     @ObservedObject var viewModel : EmojiMemoryGame
+    @Namespace private var  dealingNameSpace
     @State var emojiCount = 5
+    
+    @State private var dealt = Set<Int>()
+    
+    private func deal(card: MemoryGame<String>.Card){
+        dealt.insert(card.id)
+    }
+    
+    private func isdelt(card: MemoryGame<String>.Card) -> Bool{
+        !dealt.contains(card.id)
+    }
     
     var selectVehicle : some View{
         return Button {
@@ -57,16 +68,84 @@ struct EmojiGameView: View {
             }
         }
     }
+    var shuffle : some View{
+        Button {
+            withAnimation(Animation.easeInOut(duration: 0.5)){
+                viewModel.shuffle()
+            }
+           
+            
+        } label: {
+            Text("Shuffle").font(.system(size: 20))
+        }
+    }
+    
+    var restsrt : some View{
+        Button {
+            withAnimation(Animation.easeInOut(duration: 0.5)){
+                dealt = []
+                viewModel.restart()
+            }
+           
+            
+        } label: {
+            Text("Reset").font(.system(size: 20))
+        }
+    }
+    
+    var deckBody : some View{
+        ZStack{
+            ForEach(viewModel.cards.filter{isdelt(card: $0)}){
+                card in
+                CardView(card: card).transition(AnyTransition.asymmetric(insertion: .scale, removal: .identity))
+                    .zIndex(calZindex(card: card))
+                    .matchedGeometryEffect(id: card.id, in: dealingNameSpace)
+            }
+        }
+        .onTapGesture{
+            for card in viewModel.cards{
+                withAnimation(dealnimation(card: card)){
+                    deal(card: card)
+                }
+            }
+//            withAnimation(Animation.easeInOut(duration: 5)){
+//                for card in viewModel.cards{
+//                    deal(card: card)
+//                }
+//            }
+        }
+        .frame(width: 60, height: 90)
+        .foregroundColor(Color.red)
+      
+    }
+    
+    private func dealnimation(card: MemoryGame<String>.Card) -> Animation{
+        var delay = 0.0
+        if let index = viewModel.cards.firstIndex(where:{$0.id == card.id}) {
+            delay = Double(index) * 2 / Double(viewModel.cards.count)
+        }
+        return Animation.easeInOut(duration: 0.5).delay(delay)
+    }
+    
+    private func calZindex (card: MemoryGame<String>.Card) -> Double{
+        -Double(viewModel.cards.firstIndex(where: {$0.id == card.id}) ?? 0)
+    }
     
     @ViewBuilder
     private func cardViewNew (card: MemoryGame<String>.Card) -> some View {
-        if card.ismatched && !card.faceUp {
+        if isdelt(card: card) || card.ismatched && !card.faceUp {
              Rectangle().opacity(0)
         } else {
              CardView(card: card)
+                .matchedGeometryEffect(id: card.id, in: dealingNameSpace)
                 .aspectRatio(2/3, contentMode: .fit)
+                .transition(AnyTransition.asymmetric(insertion: .identity, removal: .scale))
+                .zIndex(calZindex(card: card))
                 .onTapGesture {
-                    viewModel.choose(card)
+                    withAnimation {
+                        viewModel.choose(card)
+                    }
+                 
                 }
         }
     }
@@ -80,6 +159,13 @@ struct EmojiGameView: View {
                 cardViewNew(card:card)
                 
             })
+                .onAppear{
+//                    withAnimation(Animation.easeInOut(duration: 5)){
+//                        for card in viewModel.cards{
+//                            deal(card: card)
+//                        }
+//                    }
+                }
 //                .foregroundColor(Color.red)
 //                .padding(.all)
 //            ScrollView{
@@ -96,17 +182,23 @@ struct EmojiGameView: View {
 //                .padding(.all)
 //            }
             .foregroundColor(Color.red)
-            Spacer(minLength: 20)
+//            Spacer(minLength: 20)
+            deckBody
             HStack{
-                selectVehicle
-                Spacer()
-                selectFood
-                Spacer()
-                add
-                
-                
+                restsrt
+                shuffle
             }
-            .padding(.horizontal)
+            
+//            HStack{
+//                selectVehicle
+//                Spacer()
+//                selectFood
+//                Spacer()
+//                add
+//
+//
+//            }
+//            .padding(.horizontal)
             
 
         }
